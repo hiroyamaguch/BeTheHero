@@ -1,0 +1,24 @@
+/**
+ * Métodos HTTP:
+ * 
+ * GET: buscar uma informação no back-end
+ * POST: enviar uma informação ao back-end
+ * PUT: atualizar uma informação no back-end
+ * DELETE: deletar uma informação no back-end
+ * 
+ */
+
+ /**
+  * Tipos de parâmetros:
+  * 
+  * Query Params: Parâmetros nomeados enviados na rota após o símbolo de interrogação
+  * Route Params: Utilizados para identificar recursos
+  * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+  */
+
+express => Responsável por gerenciar rotas
+nodemon => Atualiza a aplicação a cada alteração que é feita
+knex => Utiliza JS para criar as query's do banco de dados
+  migrations -> gerenciar mudanças no banco de dados
+sqlite3 => Banco de dados utilizado na aplicação
+cors => Determina quem vai poder acessar a aplicação
