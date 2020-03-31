@@ -1,7 +1,7 @@
 import React from 'react';
 import { Feather } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import { View, Image, Text, TouchableOpacity, Linking } from 'react-native';
+import { View, Image, Text, TouchableOpacity, Linking, StatusBar } from 'react-native';
 import * as MailComposer from 'expo-mail-composer';
 
 import styles from './styles';
@@ -34,6 +34,7 @@ export default function Detail(){
 
   return(
     <View style={styles.container}>
+      <StatusBar barStyle="dark-content" />
       <View style={styles.header}>
         <Image source={imgLogo}/>
         
