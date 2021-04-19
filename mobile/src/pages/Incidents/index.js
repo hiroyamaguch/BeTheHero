@@ -36,9 +36,11 @@ export default function Incidents(){
     const response = await api.get('incidents', {
       params: { page }
     });
+
+    console.log(response)
     
     setIncidents([...incidents, ...response.data]);
-    setTotal(response.headers['x-total-count']);
+    setTotal(response.data.length);
     setPage(page + 1);
     setLoading(false);
   }
