@@ -44,21 +44,21 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 ## :rocket: Como executar o projeto
 ```bash
   # Clone este repositório
-  git clone https://github.com/hiroyamaguch/DevQuiz.git
+  git clone https://github.com/hiroyamaguch/BeTheHero.git
 ```
 
 ##### Back-end
 ```bash
   # Acesse a pasta do back-end no terminal/cmd
-  cd DevQuiz && cd backend
+  cd BeTheHero && cd backend
 
   # Executando o projeto
-  yarn dev:server
+  yarn start
 ```
 ##### Front-end
 ```bash
   # Acesse a pasta do front-end no terminal/cmd
-  cd DevQuiz && cd frontend
+  cd BeTheHero && cd frontend
 
   # Executando o projeto
   yarn start
@@ -66,7 +66,7 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 ##### Front-end Mobile
 ```bash
   # Acesse a pasta do front-end mobile no terminal/cmd
-  cd DevQuiz && cd mobile
+  cd BeTheHero && cd mobile
 
   # Executando o projeto
   yarn android && yarn start
