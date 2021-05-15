@@ -40,6 +40,7 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 - [ReactJS](https://pt-br.reactjs.org/)
 ##### Front-end Mobile
 - [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
 
 ## :rocket: Como executar o projeto
 ```bash
@@ -52,6 +53,11 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
   # Acesse a pasta do back-end no terminal/cmd
   cd BeTheHero && cd backend
 
+  # Instalando pacotes
+  yarn
+  # ou
+  npm install
+
   # Executando o projeto
   yarn start
 ```
@@ -59,6 +65,11 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 ```bash
   # Acesse a pasta do front-end no terminal/cmd
   cd BeTheHero && cd frontend
+  
+  # Instalando pacotes
+  yarn
+  # ou
+  npm install
 
   # Executando o projeto
   yarn start
@@ -67,7 +78,12 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 ```bash
   # Acesse a pasta do front-end mobile no terminal/cmd
   cd BeTheHero && cd mobile
+  
+  # Instalando pacotes
+  yarn
+  # ou
+  npm install
 
   # Executando o projeto
-  yarn android && yarn start
+  yarn start
 ```
