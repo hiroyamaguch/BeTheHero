@@ -21,7 +21,7 @@
 <p align="center">
   <a href="#memo-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-como-executar-o-projeto">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://www.figma.com/file/2KbWFrghGcCVZI8TQphDcl/DevQuiz-(Copy)?node-id=84686%3A280">Projeto no Figma</a>
+  <a href="https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1">Projeto no Figma</a>
 </p>
 
 <p align="center">
@@ -32,33 +32,42 @@
 ## :memo: Sobre o projeto
 Be The Hero é uma aplicação para ligar instituições não governamentais a pessoas que querem fazer a diferença na sociedade.
 
-### Tecnologias utilizadas
+#### Tecnologias utilizadas
 
-#### Back-end
+##### Back-end
 - [NodeJS](https://nodejs.org/en/)
-#### Front-end
+##### Front-end
 - [ReactJS](https://pt-br.reactjs.org/)
-#### Front-end Mobile
+##### Front-end Mobile
 - [React Native](https://reactnative.dev/)
 
 ## :rocket: Como executar o projeto
+```bash
+  # Clone este repositório
+  git clone https://github.com/hiroyamaguch/DevQuiz.git
+```
 
-### Back-end
-- [NodeJS](https://nodejs.org/en/)
-### Front-end
-- [ReactJS](https://pt-br.reactjs.org/)
-### Front-end Mobile
-- [React Native](https://reactnative.dev/)
+##### Back-end
+```bash
+  # Acesse a pasta do back-end no terminal/cmd
+  cd DevQuiz && cd backend
 
-1. Configurar o ambiente de desenvolvimento instalando o FLutter SDK e o emulador ([veja como](https://www.treinaweb.com.br/blog/configurando-ambiente-de-desenvolvimento-flutter/));
-2. Executar as seguintes linhas de código:
-    ```bash
-    # Clone este repositório
-    git clone https://github.com/hiroyamaguch/DevQuiz.git
+  # Executando o projeto
+  yarn dev:server
+```
+##### Front-end
+```bash
+  # Acesse a pasta do front-end no terminal/cmd
+  cd DevQuiz && cd frontend
 
-    # Acesse a pasta do projeto no terminal/cmd
-    cd DevQuiz
+  # Executando o projeto
+  yarn start
+```
+##### Front-end Mobile
+```bash
+  # Acesse a pasta do front-end mobile no terminal/cmd
+  cd DevQuiz && cd mobile
 
-    # Executando o projeto
-    flutter run
-    ```
+  # Executando o projeto
+  yarn android && yarn start
+```
