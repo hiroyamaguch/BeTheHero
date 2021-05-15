@@ -25,8 +25,7 @@
 </p>
 
 <p align="center">
-  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/74d3f51a7bd15e318c430d5f2ca0b87b4f6e6e63/nlw5/app.gif">
-  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/74d3f51a7bd15e318c430d5f2ca0b87b4f6e6e63/nlw5/app_dark.gif">
+  <img alt="Web" src="https://github.com/hiroyamaguch/assets/blob/df0249525ac04e04e75949d42cef025b4d5d8fea/omnistack11/web.gif">
 </p>
 
 ## :memo: Sobre o projeto
@@ -40,25 +39,36 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 - [ReactJS](https://pt-br.reactjs.org/)
 ##### Front-end Mobile
 - [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
 
 ## :rocket: Como executar o projeto
 ```bash
   # Clone este repositório
-  git clone https://github.com/hiroyamaguch/DevQuiz.git
+  git clone https://github.com/hiroyamaguch/BeTheHero.git
 ```
 
 ##### Back-end
 ```bash
   # Acesse a pasta do back-end no terminal/cmd
-  cd DevQuiz && cd backend
+  cd BeTheHero && cd backend
+
+  # Instalando pacotes
+  yarn
+  # ou
+  npm install
 
   # Executando o projeto
-  yarn dev:server
+  yarn start
 ```
 ##### Front-end
 ```bash
   # Acesse a pasta do front-end no terminal/cmd
-  cd DevQuiz && cd frontend
+  cd BeTheHero && cd frontend
+  
+  # Instalando pacotes
+  yarn
+  # ou
+  npm install
 
   # Executando o projeto
   yarn start
@@ -66,8 +76,13 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 ##### Front-end Mobile
 ```bash
   # Acesse a pasta do front-end mobile no terminal/cmd
-  cd DevQuiz && cd mobile
+  cd BeTheHero && cd mobile
+  
+  # Instalando pacotes
+  yarn
+  # ou
+  npm install
 
   # Executando o projeto
-  yarn android && yarn start
+  yarn start
 ```
