@@ -25,8 +25,7 @@
 </p>
 
 <p align="center">
-  <img alt="App" src="https://github.com/hiroyamaguch/assets/blob/74d3f51a7bd15e318c430d5f2ca0b87b4f6e6e63/nlw5/app.gif">
-  <img alt="App Dark" src="https://github.com/hiroyamaguch/assets/blob/74d3f51a7bd15e318c430d5f2ca0b87b4f6e6e63/nlw5/app_dark.gif">
+  <img alt="Web" src="https://github.com/hiroyamaguch/assets/blob/df0249525ac04e04e75949d42cef025b4d5d8fea/omnistack11/web.gif">
 </p>
 
 ## :memo: Sobre o projeto
