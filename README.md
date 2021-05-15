@@ -36,11 +36,16 @@ Be The Hero é uma aplicação para ligar instituições não governamentais a p
 
 ##### Back-end
 - [NodeJS](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [Knex](https://knexjs.org/)
+- [Postgres](https://www.postgresql.org/)
 ##### Front-end
 - [ReactJS](https://pt-br.reactjs.org/)
+- [Axios](https://github.com/axios/axios)
 ##### Front-end Mobile
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
+- [Axios](https://github.com/axios/axios)
 
 ## :rocket: Como executar o projeto
 ```bash
